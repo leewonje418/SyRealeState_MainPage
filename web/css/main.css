@@ -98,3 +98,9 @@ section.about .inner .line{width: 35%; margin: 80px auto; position: relative;}
 section.about .inner .line span {display: block; width: 100%; height: 1px; background: rgba(255, 255, 255, 0.25);}
 section.about .inner .line li{width: 6px; height: 6px; border-radius: 50%;
 background: #fff; position: absolute;}
+section.about .inner .line li.a {left: 0; top: -2px;}
+section.about .inner .line li.b {left: 50%;  transform: translateX(-50%); top: -2px;}
+section.about .inner .line li.c {right: 0; top: -2px;}
+section.about .inner .line li:before {content: ''; width: 100%; height: 100%; border-radius: 505; 
+background: rgba(255, 0, 0, 0.71); position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+animation-name: dot 1.5s infinite;}
